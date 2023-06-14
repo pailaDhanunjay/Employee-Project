@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+body{
+	color:black;
+}
+fieldset{
+	backgroundcolor:yellow;
+	border-color:green;
+	width:50%;
+	margin:auto;
+	border-radius:10px;
+}
+img{
+	margin:20px;
+}
+img:hover{
+	border-radius:100%;
+}
+h1{
+	color:white;
+	text-align:center;
+	border:2px solid white;
+	padding:5px;
+	border-radius:10px;
+	background-color:green;
+}

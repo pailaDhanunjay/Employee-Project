@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Register</title>
+<link rel="stylesheet" href="empreg.css">
+</head>
+<body>
+<fieldset>
+<h1><b>EMPLOYEE MANAGEMENT SYSTEM</b></h1>
+<marquee><a href="home.html">Home</a>       <a href="contact.html">Contact</a>          <a href="empreg.html">Register</a>          <a href="login.html">Login</a></marquee><p></p>
+<form action="Register" method="post">
+<table>
+<tr><td></td><td>Name:</td><td><input type="text" name="ename"></td></tr>
+<tr><td></td><td>Password:</td><td><input type="password" name="epwd"></td></tr>
+<tr><td></td><td>Email:</td><td><input type="email" name="eemail"></td></tr>
+<tr><td></td><td>Gender:</td><td><input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female</td></tr>
+<tr><td></td><td>Mobile Number:</td><td><input type="number" name="emno"></td></tr>
+<tr><td></td><td>State:</td><td><select name="estate">
+<option value="">Select state</option>
+<option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Telangana">Telangan</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Karnataka">Karnataka</option>
+</select></td></tr>
+<tr><td></td><td>Country:</td><td><select name="ecountry">
+<option value="">Select Country</option>
+<option value="India">India</option>
+</select></td></tr>
+<tr><td></td><td>Address:</td><td><textarea name="eadd"></textarea></td></tr>
+<tr><td></td><td><input type="submit" value="Register">
+<input type="reset" value="Reset"></td></tr>
+</table>
+</form></fieldset>
+</body>
+</html>
